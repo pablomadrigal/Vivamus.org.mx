@@ -137,6 +137,18 @@ export default function Registration() {
                 {eventInfo.runnerKitNote}
               </motion.p>
             )}
+
+            {/* Carta exonerativa */}
+            <motion.div {...fadeUp} className="flex justify-center mt-8">
+              <a
+                href={links.cartaExonerativa}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-display text-lg sm:text-xl text-black bg-white px-10 py-4 rounded-full border-3 border-black shadow-neo transition-all duration-150 hover:translate-x-1 hover:translate-y-1 hover:shadow-none active:translate-x-1 active:translate-y-1 active:shadow-none"
+              >
+                Descarga la carta exonerativa
+              </a>
+            </motion.div>
           </div>
         </div>
       </section>
